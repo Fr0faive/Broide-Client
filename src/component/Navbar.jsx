@@ -25,8 +25,8 @@ const Navbar = () => {
       <nav className="w-full bg-white fixed">
         <div className="flex justify-between items-center py-6 md:px-3 lg:px-24 mx-16 lg:mx-24 text-black">
           <Link to={"/"} className="flex gap-3 items-center">
-            <Logo size="h-10" />
-            <span className="text-3xl text-[#2F318B] font-semibold">
+            <Logo size="h-6 lg:h-10" />
+            <span className="text-xl lg:text-3xl text-[#2F318B] font-semibold">
               Broide.
             </span>
           </Link>
