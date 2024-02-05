@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "../element/Button";
+import { TypeAnimation } from "react-type-animation";
 import Logo from "../element/Logo";
 
 const Hero = () => {
@@ -12,7 +13,26 @@ const Hero = () => {
               <h1 className="text-4xl lg:text-6xl text-[#2F318B] font-bold">
                 Broide.
               </h1>
-              <p className="text-base md:text-lg lg:text-2xl">
+              <div className="text-xl">
+                <TypeAnimation
+                  preRenderFirstString={true}
+                  sequence={[
+                    500,
+                    "We produce good clothes", // initially rendered starting point
+                    1000,
+                    "We produce clean clothes",
+                    1000,
+                    "We produce perfect clothes",
+                    1000,
+                    "We produce the best clothes",
+                    500,
+                  ]}
+                  speed={50}
+                  style={{ fontSize: "2em" }}
+                  repeat={Infinity}
+                />
+              </div>
+              {/* <p className="text-base md:text-lg lg:text-2xl">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatem in distinctio repudiandae explicabo porro tempore
                 nostrum sed libero eligendi. Asperiores, ullam? Saepe veniam
@@ -20,7 +40,7 @@ const Hero = () => {
                 Labore cupiditate, magnam dignissimos exercitationem, eum sequi
                 fuga neque suscipit repellendus eaque repudiandae voluptatem
                 debitis aliquid ut, in perspiciatis!
-              </p>
+              </p> */}
               <Link to={"/"}>
                 <Button type="button">Order Now</Button>
               </Link>
