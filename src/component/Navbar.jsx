@@ -62,8 +62,8 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <ButtonDownload href="./assets/broide.pdf" type="button">
-              Download Katalog
+            <ButtonDownload href="https://www.instagram.com/broide.project/" type="button">
+              Follow
             </ButtonDownload>
           </div>
         )}

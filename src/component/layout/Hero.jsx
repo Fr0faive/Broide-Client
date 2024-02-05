@@ -32,7 +32,7 @@ const Hero = () => {
                   repeat={Infinity}
                 />
               </div>
-              {/* <p className="text-base md:text-lg lg:text-2xl">
+              <p className="text-base md:text-lg lg:text-2xl">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptatem in distinctio repudiandae explicabo porro tempore
                 nostrum sed libero eligendi. Asperiores, ullam? Saepe veniam
@@ -40,8 +40,8 @@ const Hero = () => {
                 Labore cupiditate, magnam dignissimos exercitationem, eum sequi
                 fuga neque suscipit repellendus eaque repudiandae voluptatem
                 debitis aliquid ut, in perspiciatis!
-              </p> */}
-              <Link to={"/"}>
+              </p>
+              <Link to={"https://www.instagram.com/broide.project/"}>
                 <Button type="button">Order Now</Button>
               </Link>
             </div>
