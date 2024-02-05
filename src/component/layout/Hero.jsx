@@ -21,7 +21,7 @@ const Hero = () => {
                 fuga neque suscipit repellendus eaque repudiandae voluptatem
                 debitis aliquid ut, in perspiciatis!
               </p>
-              <Link to={"/"}>
+              <Link to={"https://www.instagram.com/broide.project/"}>
                 <Button type="button">Order Now</Button>
               </Link>
             </div>
