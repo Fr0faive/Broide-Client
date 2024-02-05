@@ -10,7 +10,7 @@ const listNav = [
   },
   {
     name: "About",
-    path: "/about",
+    path: "#about",
   },
   {
     name: "Contact",
@@ -22,7 +22,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>
-      <nav className="w-full bg-white fixed">
+      <nav className="w-full bg-white fixed z-10">
         <div className="flex justify-between items-center py-6 md:px-3 lg:px-24 mx-16 lg:mx-24 text-black">
           <Link to={"/"} className="flex gap-3 items-center">
             <Logo size="h-6 lg:h-10" />
@@ -36,8 +36,11 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <ButtonDownload href="./assets/broide.pdf" type="button">
-              Download Katalog
+            <ButtonDownload
+              href="https://www.instagram.com/broide.project/"
+              type="button"
+            >
+              Follow
             </ButtonDownload>
           </div>
           <div className="lg:hidden">
@@ -62,7 +65,10 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            <ButtonDownload href="https://www.instagram.com/broide.project/" type="button">
+            <ButtonDownload
+              href="https://www.instagram.com/broide.project/"
+              type="button"
+            >
               Follow
             </ButtonDownload>
           </div>

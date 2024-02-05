@@ -2,7 +2,11 @@
 export default {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        embroidery: "url('./src/assets/embroidery.jpg')",
+      },
+    },
   },
   plugins: [],
 };

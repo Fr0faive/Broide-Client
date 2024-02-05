@@ -7,42 +7,40 @@ const Hero = () => {
   return (
     <>
       <div className="bg-white h-auto min-h-screen w-full">
-        <div className="flex flex-col-reverse lg:flex-row gap-16 lg:gap-24 justify-center items-center px-24 py-28 lg:p-64">
+        <div className="flex flex-col-reverse lg:flex-row gap-16 lg:gap-24 justify-center items-center px-14 py-28 lg:p-64">
           <div className="w-full lg:w-2/3">
             <div className="flex flex-col gap-5 text-black text-justify">
               <h1 className="text-4xl lg:text-6xl text-[#2F318B] font-bold">
                 Broide.
               </h1>
-              <div className="text-xl">
+              <div className="font-bold lg:font-normal text-base lg:text-xl">
                 <TypeAnimation
                   preRenderFirstString={true}
                   sequence={[
                     500,
-                    "We produce good clothes", // initially rendered starting point
+                    "Create perfection in every stitch", // initially rendered starting point
                     1000,
-                    "We produce clean clothes",
+                    "Create your identity in every idea",
                     1000,
-                    "We produce perfect clothes",
-                    1000,
-                    "We produce the best clothes",
+                    "With Broide",
                     500,
                   ]}
                   speed={50}
-                  style={{ fontSize: "2em" }}
+                  style={{}}
                   repeat={Infinity}
                 />
               </div>
               <p className="text-base md:text-lg lg:text-2xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatem in distinctio repudiandae explicabo porro tempore
-                nostrum sed libero eligendi. Asperiores, ullam? Saepe veniam
-                reiciendis nisi repudiandae nihil sint ex consequatur maxime!
-                Labore cupiditate, magnam dignissimos exercitationem, eum sequi
-                fuga neque suscipit repellendus eaque repudiandae voluptatem
-                debitis aliquid ut, in perspiciatis!
+                broide atau broide project adalah sebuah perusahaan yang
+                bergerak di bidang pakaian bordir kostum.kami hadir sebagai
+                inovasi serta solusi atas keterbatasan yang muncul pada individu
+                yang berkeinginan membuat suatu pakaian dengan tidak leluasa.
+                maka dari itu kami berusaha sebaik mungkin demi melayani anda
+                pada pakaian bordir dimana kami membuat serta mengabadikan pada
+                setiap jahitan benang yang kalian inginkan.{" "}
               </p>
               <Link to={"https://www.instagram.com/broide.project/"}>
-                <Button type="button">Order Now</Button>
+                <Button type="button">Support</Button>
               </Link>
             </div>
           </div>
