@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        embroidery: "url('./src/assets/embroidery.jpg')",
+        embroidery: "url('/src/assets/embroidery.jpg')",
       },
     },
   },
