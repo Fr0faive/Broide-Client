@@ -3,6 +3,8 @@ import Logo from "./element/Logo";
 import { ButtonDownload } from "./element/Button";
 import { useState } from "react";
 
+import { InstagramOutlined } from "@ant-design/icons";
+
 const listNav = [
   {
     name: "Home",
@@ -44,7 +46,7 @@ const Navbar = () => {
               href="https://www.instagram.com/broide.project/"
               type="button"
             >
-              Follow
+              Follow us <InstagramOutlined />
             </ButtonDownload>
           </div>
           <div className="lg:hidden">
