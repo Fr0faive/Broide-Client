@@ -31,7 +31,7 @@ const Hero = () => {
                 />
               </div>
               <p className="text-base md:text-lg lg:text-2xl">
-                broide atau broide project adalah sebuah perusahaan yang
+                Broide atau broide project adalah sebuah perusahaan yang
                 bergerak di bidang pakaian bordir kostum.kami hadir sebagai
                 inovasi serta solusi atas keterbatasan yang muncul pada individu
                 yang berkeinginan membuat suatu pakaian dengan tidak leluasa.
