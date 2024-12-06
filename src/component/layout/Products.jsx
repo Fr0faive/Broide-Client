@@ -31,14 +31,14 @@ const Products = () => {
                         <img
                             src={product.imageUrl}
                             alt={product.name}
-                            className="w-full h-40 object-cover"
+                            className="w-full h-72   object-cover"
                         />
                         <div className="p-4">
                             <h2 className="text-lg font-semibold">{product.name}</h2>
                             <p className="text-sm text-gray-600 mb-2">{product.category}</p>
                             <p className="text-sm text-gray-700 mb-2">{product.description}</p>
                             <p className="text-lg font-bold text-green-600 mb-2">
-                                ${product.price.toFixed(2)}
+                                {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(product.price)}
                             </p>
                             <p className={`text-sm font-medium ${product.stock > 0 ? 'text-green-500' : 'text-red-500'}`}>
                                 {product.stock > 0 ? `In Stock (${product.stock})` : 'Out of Stock'}
