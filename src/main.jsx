@@ -5,11 +5,16 @@ import "./assets/global.css";
 import Homepage from "./pages/Homepage";
 import NotFoundPage from "./pages/NotFoundPage";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import ProductsPage from "./pages/ProductsPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Homepage />,
+  },
+  {
+    path: "/products",
+    element: <ProductsPage />,
   },
   {
     path: "*",

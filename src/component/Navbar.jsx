@@ -16,6 +16,10 @@ const listNav = [
     name: "Contact",
     path: "/contact",
   },
+  {
+    name: "Products",
+    path: "/products",
+  },
 ];
 
 const Navbar = () => {
